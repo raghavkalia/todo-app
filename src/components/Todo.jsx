@@ -1,4 +1,3 @@
-import { PiPlus } from "react-icons/pi";
 import { FaFileCirclePlus } from "react-icons/fa6";
 import { FaSearchPlus } from "react-icons/fa";
 import { useState } from "react";

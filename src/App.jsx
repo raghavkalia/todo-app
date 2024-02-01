@@ -4,7 +4,6 @@ import store from "./redux/store";
 import Todo from "./components/Todo";
 
 function App() {
-  console.log("hhh");
   return (
     <Provider store={store}>
       <Todo />

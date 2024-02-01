@@ -31,7 +31,7 @@ const todoReducer = (state = initialState, action) => {
       return {
         todos: state.todos.map((todo, index) =>
           index === action.payload.id
-            ? { ...todo, completed: !completed }
+            ? { ...todo, completed: !todo.completed }
             : todo
         ),
         filter: state.filter,
